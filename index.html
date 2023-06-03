@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Omnifood is a AI powered food subscription that will make you eat healthy again, 365 days per year, It's tailored to your personal tastes and nutritional needs."
+    />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Akshar Group</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin="" />
+
+    <!-- JS LIBRARIES -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"
+    ></script>
+
+    <!-- Location -->
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+      crossorigin=""></script>
+
+    <!-- CUSTOM JS -->
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/akshar-logo.png" alt="akshar-logo" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Services</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Projects</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Works</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Location</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              WE ARE SINCE 2013
+              We're Best & Fixing Specialist! #Electricity
+            </h1>
+            <p class="hero-description">
+              All type will get solution of electric work
+            </p>
+            <a href="#cta" class="btn btn-full margin-right-sm">
+              Location
+            </a>
+            <a href="#how" class="btn btn-outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>2500+</span> Complete Project last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/workimg.png"
+              class="hero-img"
+              alt="Working img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Working IN -->
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As Working in</h2>
+          <div class="logos">
+            <img src="img/logos/akshar-geb.png" alt="img-GEB" />
+            <img src="img/logos/iT-Infra.png" alt="img-itInfra" />
+            <img src="img/logos/light-project.png" alt="img-lightProject" />
+            <img src="img/logos/solar.png" alt="img-solar" />
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">WELCOME TO ELETOSER.</span>
+          <h2 class="heading-secondary">
+            Best Electrical Solutions For Your Electrical Problems
+          </h2>
+        </div>
+
+        <div class="container grid grid-2-cols grid-center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Electrical Work
+            </h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/ele-solution.png"
+              class="step-img"
+              alt="ele-solution"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/geb-work.png"
+              class="step-img"
+              alt="geb-work"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Torrent Geb Work</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">IT Infra Service</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/it-infraimg.png"
+              class="step-img"
+              alt="it-infraimg"
+            />
+          </div>
+
+          <!-- STEP 04 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/light-project.png"
+              class="step-img"
+              alt="it-infraimg"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">04</p>
+            <h3 class="heading-tertiary">Light Up Your Life</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+          </div>
+
+          <!-- STEP 05 -->
+          <div class="step-text-box">
+            <p class="step-number">05</p>
+            <h3 class="heading-tertiary">solar Project</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/solar-working.png"
+              class="step-img"
+              alt="it-infraimg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- MEALS -->
+      <section class="section-meals" id="meals">
+        <div class="container text-center">
+          <span class="subheading">Our Services</span>
+          <h2 class="heading-secondary">
+            What Service We Offer
+          </h2>
+        </div>
+
+        <div class="container grid grid-3-cols margin-bottom-md">
+          <div class="meals">
+            <img
+              src="img/meals/encrypted.png"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Electrical Security</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/electric-tower.png"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Electricity Overuse</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/electricity.png"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Install & Upgrades</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid grid-3-cols margin-bottom-md">
+          <div class="meals">
+            <img
+              src="img/meals/service.png"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Diagnosis & Repair</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/lan.png"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Cable Networking</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/socket.png"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Faulty & Old Wiring</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>We bring the right people together to challenge established</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- TESTIMONIALS + GALLERY -->
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">OUR PROJECTS</span>
+          <h2 class="heading-secondary">Project We Have Done</h2>
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                src="img/customers/dave.jpg"
+                class="testimonial-img"
+                alt="Photo of customer Dave Bryson"
+              />
+              <blockquote class="testimonial-text">
+                Inexpensive, healthy and great-tasting meals, without even
+                having to order manually! It feels truly magical.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/steve.jpg"
+                class="testimonial-img"
+                alt="Photo of customer Ben Hadley"
+              />
+              <blockquote class="testimonial-text">
+                The AI algorithm is crazy good, it chooses the right meals for
+                me every time. It's amazing not to worry about food anymore!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ben Hadley</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/hannah.jpg"
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+              />
+              <blockquote class="testimonial-text">
+                Omnifood is a life saver! I just started a company, so there's
+                no time for cooking. I couldn't live without my daily meals now!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/ben.jpg"
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+              />
+              <blockquote class="testimonial-text">
+                I got Omnifood for the whole family, and it frees up so much
+                time! Plus, everything is organic and vegan and without plastic.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Hannah Smith</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img4.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img5.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img7.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img8.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img9.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img10.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img1.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img2.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img3.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img6.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img-11.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/g-img12.png"
+              alt="Photo of beautifully arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- PRICING + FEATURES -->
+      <section class="section-meals" id="pricing">
+        <div class="container text-center">
+          <span class="subheading">Our Works</span>
+          <h2 class="heading-secondary">
+            Do You Need Help With Electrical Maintenance?
+          </h2>
+        </div>
+
+        <div class="container grid grid-3-cols margin-bottom-md">
+          <div class="meals">
+            <img
+              src="img/meals/residency-work.jpg"
+              class="meal-img1"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <p class="meal-title">7 Home Maintenance Tips for Energy Savings & Safety</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet,</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/connecting-cable.jpg"
+              class="meal-img1"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Things Start Your Electric and Contracting Business</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet,</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/electrical.jpg"
+              class="meal-img1"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <p class="meal-title">What’s the Best Thermostat Setting for Summer</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet,</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- CTA -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div id="map">
+            <div class="leaflet-control coordinate"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container grid grid-footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img class="logo" src="img/akshar-logo.png" alt="akshar-logo" />
+            </a>
+            <ul class="social-links">
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon class="social-link" name="logo-instagram">
+                  </ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon class="social-link" name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon class="social-link" name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="address-col">
+            <p class="footer-heading">Address</p>
+            <address class="contacts">
+              <p class="address">
+                1119 Shilp Epitome nr. Rajpath Rangoli Road Bodakdev Ahmedabad, Gujarat 380054 India
+              </p>
+            </address>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Number</p>
+            <ul class="footer-nav">
+              <li><a href="tel:097255 99578" class="footer-link">097255 99578</a></li>
+              <li><a href="tel:099743 07444" class="footer-link">099743 07444</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Email</p>
+            <ul class="footer-nav">
+              <li><a href="mailto:hello@omnifood.com" class="footer-link">
+                hello@omnifood.com
+              </a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+      <p class="copyright" style="text-align: center; margin: 5px;">
+        Copyright &copy; <span class="year">2023</span> by Akshar-Ele, Inc.
+        All rights reserverd.
+      </p>
+    </main>
+  </body>
+</html>
