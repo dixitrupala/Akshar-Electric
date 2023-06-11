@@ -210,9 +210,9 @@ Instead, 1rem = 1em = 16px */
     }
   
     .nav-col {
-      grid-row: 1;
+      grid-row: 2;
       grid-column: span 2;
-      margin-bottom: 3.2rem;
+      margin-bottom: 1rem;
     }
   
     .logo-col,
@@ -259,12 +259,18 @@ Instead, 1rem = 1em = 16px */
     .logos img {
       height: 10.2rem;
     }
+    .electric-img{
+      height: 4.4rem !important;
+    }
   
     .step-img-box:nth-child(2) {
       grid-row: 1;
     }
     .step-img-box:nth-child(6) {
       grid-row: 5;
+    }
+    .step-img-box:nth-child(10) {
+      grid-row: 9;
     }
   
     .step-img-box {

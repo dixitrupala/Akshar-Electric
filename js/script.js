@@ -1,13 +1,7 @@
-/////////////////////////////////////////////////
-// Set current year
-
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 
 yearEl.textContent = currentYear;
-
-/////////////////////////////////////////////////
-// Make mobile navigation work
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
@@ -15,9 +9,6 @@ const headerEl = document.querySelector(".header");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
-
-////////////////////////////////////////////////
-// Smooth scrolling animation
 
 const allLinks = document.querySelectorAll("a:link");
 
@@ -48,7 +39,6 @@ allLinks.forEach(function (link) {
   });
 });
 
-////////////////////////////////////////////////
 // Sticky header
 
 window.addEventListener("scroll", function () {
@@ -73,4 +63,20 @@ var singleMarker = L.marker([23.035373099997514, 72.50513840000072]);
 var popup = singleMarker.bindPopup("<h2>Akshar Electric</h2>").openPopup();
 popup.addTo(map);
 
-L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+
+// slide Image
+let items = document.querySelectorAll('.carousel .carousel-item')
+		items.forEach((el) => {
+			const minPerSlide = 5
+			let next = el.nextElementSibling
+			for (var i=1; i<minPerSlide; i++) {
+				if (!next) {
+            // wrap carousel by using first child
+            next = items[0]
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
+
