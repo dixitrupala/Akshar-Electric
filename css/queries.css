@@ -204,13 +204,7 @@ Instead, 1rem = 1em = 16px */
     .pricing-plan {
       width: 100%;
     }
-  
-    .grid-footer {
-      grid-template-columns: repeat(6, 1fr);
-    }
-  
     .nav-col {
-      grid-row: 2;
       grid-column: span 2;
       margin-bottom: 1rem;
     }
@@ -253,7 +247,7 @@ Instead, 1rem = 1em = 16px */
     }
   
     .hero-img {
-      width: 80%;
+      width: 100%;
     }
   
     .logos img {

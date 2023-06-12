@@ -135,6 +135,13 @@ Medium: 11px
     margin-bottom: 2.6rem;
     color: #1B325F;
   }
+
+  .heading-secondary1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.6rem;
+    color: #1B325F;
+  }
   
   .subheading {
     display: block;
