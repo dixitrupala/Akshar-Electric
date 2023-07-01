@@ -49,21 +49,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Location
-
-var map = L.map("map").setView([23.035373099997514, 72.50513840000072], 100);
-var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution:
-    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-});
-
-osm.addTo(map);
-
-var singleMarker = L.marker([23.035373099997514, 72.50513840000072]);
-var popup = singleMarker.bindPopup("<h2>Akshar Electric</h2>").openPopup();
-popup.addTo(map);
-
-
 // slide Image
 let items = document.querySelectorAll('.carousel .carousel-item')
 		items.forEach((el) => {

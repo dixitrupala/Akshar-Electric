@@ -234,28 +234,28 @@
   }
 
   .electric-project{
-    background-image: url('../img/meals/electric-project.png');
+    background-image: url('../img/service/electric-project.png');
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
   }
   .infra-project{
-    background-image: url('../img/meals/infra-project.png');
+    background-image: url('../img/service/infra-project.png');
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
   }
   .solar-project{
-    background-image: url('../img/meals/solar-project.png');
+    background-image: url('../img/service/solar-project.png');
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
   }
   .torrent-project{
-    background-image: url('../img/meals/torrent-project.png');
+    background-image: url('../img/service/torrent-project.png');
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -749,7 +749,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 10px;
 border:1px solid #444;
 }
